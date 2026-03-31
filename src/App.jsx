@@ -1,13 +1,20 @@
 
 import './App.css'
+import Banner from './Banner'
+import Navbar from './Navbar'
+import Start from './Start'
+import Transflow from './Transflow'
+import UserRating from './UserRating'
 
 function App() {
 
   return (
     <>
-     <h1 className='text-center font-bold text-5xl'>hello world</h1>
-
-     
+     <Navbar></Navbar>
+     <Banner></Banner>
+     <UserRating></UserRating>
+     <Start></Start>
+     <Transflow></Transflow>
     </>
   )
 }
