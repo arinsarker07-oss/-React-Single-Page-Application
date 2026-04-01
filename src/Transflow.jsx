@@ -2,7 +2,7 @@ import React from 'react';
 
 const Transflow = () => {
     return (
-        <div className="w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] py-24 px-4 flex flex-col items-center justify-center text-center text-white">
+        <div className="w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] py-15 mt-25 px-4 flex flex-col items-center justify-center text-center text-white">
       <h2 className="md:text-5xl text-2xl font-extrabold tracking-tight mb-5 ">
         Ready To Transform Your Workflow?
       </h2>

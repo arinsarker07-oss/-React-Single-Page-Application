@@ -4,6 +4,7 @@ import Banner from './Banner'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import Start from './Start'
+import Price from './price'
 import Transflow from './Transflow'
 import UserRating from './UserRating'
 
@@ -15,6 +16,7 @@ function App() {
      <Banner></Banner>
      <UserRating></UserRating>
      <Start></Start>
+     <Price></Price>
      <Transflow></Transflow>
      <Footer></Footer>
     </>
