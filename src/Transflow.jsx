@@ -9,7 +9,7 @@ const Transflow = () => {
       <p className="text-white md:text-xl leading-relaxed mb-12">
         Join thousands of professionals who are already using Digitools to work smarter. <br /> Start your free trial today.
       </p>
-      <div className="flex gap-4 mb-10">
+      <div className="flex flex-col md:flex-row gap-4 mb-10">
         <button className="btn rounded-full md:px-6 md:py-8 text-[#6414fafd] text-xl">
           Explore Products
         </button>
