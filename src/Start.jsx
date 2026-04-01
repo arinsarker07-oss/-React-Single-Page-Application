@@ -1,8 +1,10 @@
 import React from 'react';
-
+import userImg from "./assets/user.png";
+import packageImg from "./assets/package.png"
+import rocketImg from './assets/rocket.png'
 const Start = () => {
     return (
-        <div className='text-center mt-20 space-y-4'>
+        <div className='text-center mt-20 space-y-4 my-10 mt-12'>
             <p className='font-extrabold text-5xl text-[#101727]'>Get Started in 3 Steps</p>
             <p className='  text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
 
@@ -14,7 +16,7 @@ const Start = () => {
         </div>
 
         <div className="w-32 h-32 bg-[#F5EEFF] rounded-full flex items-center justify-center mb-8 mt-4">
-         <img src="../src/assets/user.png" alt="" />
+         <img src={userImg} alt="" />
         </div>
         <h2 className="text-[#1A202C] text-3xl font-bold mb-4">
           Create Account
@@ -31,7 +33,7 @@ const Start = () => {
         </div>
 
         <div className="w-32 h-32 bg-[#F5EEFF] rounded-full flex items-center justify-center mb-8 mt-4">
-         <img src="../src/assets/package.png" alt="" />
+         <img src={packageImg} alt="" />
         </div>
         <h2 className="text-[#1A202C] text-3xl font-bold mb-4">
           Choose Products
@@ -48,7 +50,7 @@ const Start = () => {
         </div>
 
         <div className="w-32 h-32 bg-[#F5EEFF] rounded-full flex items-center justify-center mb-8 mt-4">
-         <img src="../src/assets/rocket.png" alt="" />
+         <img src={rocketImg} alt="" />
         </div>
         <h2 className="text-[#1A202C] text-3xl font-bold mb-4">
           Start Creating
