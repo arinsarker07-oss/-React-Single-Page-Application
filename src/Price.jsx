@@ -10,7 +10,7 @@ const price = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto items-center">
 
-                <div className="card bg-slate-50 border border-slate-100 shadow-sm p-8">
+                <div className="card bg-slate-50 border border-slate-100 shadow-sm p-8 hover-3d">
                     <div className="space-y-4">
                         <h3 className="text-2xl font-bold text-slate-800">Starter</h3>
                         <p className="text-slate-500 text-sm">Perfect for getting started</p>
@@ -37,12 +37,12 @@ const price = () => {
                             </li>
                         </ul>
                         <button className=" w-full bg-gradient-to-r  from-[#4F39F6] via-[#4F39F6] to-[#9514FA]  text-white  p-3 rounded-full text-sm  font-medium hover:opacity-90 transition-opacity ">
-                           Get Started Free
+                            Get Started Free
                         </button>
                     </div>
                 </div>
 
-                <div className="card bg-gradient-to-r  from-[#4F39F6]  to-[#9514FA] text-white shadow-2xl p-8 relative md:scale-110 z-10">
+                <div className=" card bg-gradient-to-r  from-[#4F39F6]  to-[#9514FA] text-white shadow-2xl p-8 relative md:scale-110 z-10">
                     <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                         <span className="badge badge-warning py-3 px-4 font-bold text-[10px] uppercase tracking-wider border-none bg-[#FEF3C7] text-[#92400E]">Most Popular</span>
                     </div>
@@ -83,7 +83,7 @@ const price = () => {
                     </div>
                 </div>
 
-                <div className="card bg-slate-50 border border-slate-100 shadow-sm p-8">
+                <div className="hover-3d card bg-slate-50 border border-slate-100 shadow-sm p-8">
                     <div className="space-y-4">
                         <h3 className="text-2xl font-bold text-slate-800">Enterprise</h3>
                         <p className="text-slate-500 text-sm">For teams and businesses</p>
@@ -117,8 +117,8 @@ const price = () => {
                                 Custom branding
                             </li>
                         </ul>
-                          <button className=" w-full bg-gradient-to-r  from-[#4F39F6] via-[#4F39F6] to-[#9514FA]  text-white  p-3 rounded-full text-sm  font-medium hover:opacity-90 transition-opacity ">
-                          Contact Sales
+                        <button className=" w-full bg-gradient-to-r  from-[#4F39F6] via-[#4F39F6] to-[#9514FA]  text-white  p-3 rounded-full text-sm  font-medium hover:opacity-90 transition-opacity ">
+                            Contact Sales
                         </button>
                     </div>
                 </div>

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "01",
+    "name": "Canva Magic Pro",
+    "description": "The ultimate design tool with 'Magic Studio' AI features for instant social media content.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "success",
+    "features": ["100M+ Premium Photos", "Magic Background Remover", "Brand Kit Pro", "1TB Cloud Storage"],
+    "icon": "🎨"
+  },
+  {
+    "id": "02",
+    "name": "CapCut Pro Desktop",
+    "description": "Professional-grade video editing with AI auto-captions and trending viral templates.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "primary",
+    "features": ["4K HDR Export", "AI Body Effects", "Teleprompter Mode", "No Watermarks"],
+    "icon": "🎬"
+  },
+  {
+    "id": "03",
+    "name": "Adobe Photoshop AI",
+    "description": "The world's most advanced image editor, now powered by Firefly Generative Fill.",
+    "price": 22.99,
+    "period": "monthly",
+    "tag": "Industry Standard",
+    "tagType": "dark",
+    "features": ["Generative Fill AI", "Neural Filters", "Advanced Layering", "Lightroom Included"],
+    "icon": "📷"
+  },
+  {
+    "id": "04",
+    "name": "Midjourney v7",
+    "description": "The highest-quality AI image generator for photorealistic and artistic concept art.",
+    "price": 30,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "warning",
+    "features": ["Fast GPU Hours", "Relax Mode Unlimited", "Stealth Image Creation", "Commercial Rights"],
+    "icon": "🚀"
+  },
+  {
+    "id": "05",
+    "name": "Notion AI Plus",
+    "description": "Your connected workspace for wiki, docs, and projects, enhanced with an AI brain.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "Top Rated",
+    "tagType": "info",
+    "features": ["AI Autofill Tables", "Unlimited Blocks", "Custom Databases", "Page Analytics"],
+    "icon": "📓"
+  },
+  {
+    "id": "06",
+    "name": "ChatGPT Plus",
+    "description": "Access to GPT-5, specialized GPTs, and real-time internet browsing for maximum productivity.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "Must Have",
+    "tagType": "success",
+    "features": ["Early Access to GPT-5", "DALL-E 3 Image Gen", "Advanced Data Analysis", "Priority Access"],
+    "icon": "🤖"
+  },
+  {
+    "id": "07",
+    "name": "Adobe Creative Cloud",
+    "description": "The complete suite of 20+ creative apps including Premiere, Illustrator, and After Effects.",
+    "price": 599,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "error",
+    "features": ["20+ Creative Apps", "20,000+ Fonts", "Portfolio Website", "1TB Storage"],
+    "icon": "☁️"
+  },
+  {
+    "id": "08",
+    "name": "Framer Site Pro",
+    "description": "Design and publish stunning, high-performance websites without writing a single line of code.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "accent",
+    "features": ["Custom Domains", "Advanced Animations", "CMS for Blogs", "High Bandwidth"],
+    "icon": "🌐"
+  },
+  {
+    "id": "09",
+    "name": "ElevenLabs Creator",
+    "description": "The most realistic AI voice generator for high-quality audiobooks and video voiceovers.",
+    "price": 11,
+    "period": "monthly",
+    "tag": "Hot",
+    "tagType": "danger",
+    "features": ["Instant Voice Cloning", "30,000 Characters/mo", "Commercial License", "29+ Languages"],
+    "icon": "🎙️"
+  },
+  {
+    "id": "10",
+    "name": "Coursera Plus",
+    "description": "Unlimited access to 7,000+ courses and professional certificates from Google and IBM.",
+    "price": 399,
+    "period": "yearly",
+    "tag": "Educational",
+    "tagType": "secondary",
+    "features": ["Professional Certificates", "Degree Credits", "Guided Projects", "Flexible Learning"],
+    "icon": "🎓"
+  }
+]
