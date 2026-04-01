@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BodyHeader = ({setActiveTab,ActiveTab}) => {
+const BodyHeader = ({setActiveTab,ActiveTab,Carts}) => {
     return (
         <div className='text-center mt-30 space-y-3'>
            <p className='font-extrabold text-5xl text-[#101727]'>Premium Digital Tools</p>
@@ -22,7 +22,7 @@ const BodyHeader = ({setActiveTab,ActiveTab}) => {
               ? 'bg-gradient-to-l from-[#4F39F6] to-[#9514FA] text-white' 
               : 'bg-white border border-gray-200 text-[#25065D]'
           }`} >
-          Cart (0)
+          Cart ({Carts.length})
         </button>
 
       </div>

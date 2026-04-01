@@ -7,7 +7,7 @@ const Body = ({ GetAllCard,setActiveTab,ActiveTab,setCarts,Carts}) => {
 
     return (
         <>
-            <BodyHeader setActiveTab={setActiveTab} ActiveTab={ActiveTab} ></BodyHeader>
+            <BodyHeader setActiveTab={setActiveTab} ActiveTab={ActiveTab} Carts={Carts}></BodyHeader>
                      
 
            {ActiveTab==="product"? <div className='grid md:grid-cols-3 grid-cols-1  gap-7 container mx-auto '>
@@ -16,7 +16,7 @@ const Body = ({ GetAllCard,setActiveTab,ActiveTab,setCarts,Carts}) => {
                     <ProductCard  Carts={Carts} setCarts={setCarts} key={Data.id} Data={Data}></ProductCard>
                     )
                 }
-            </div> :    <Cart Carts={Carts}></Cart> }
+            </div> :    <Cart Carts={Carts} setCarts={setCarts}></Cart> }
 
         </>
 

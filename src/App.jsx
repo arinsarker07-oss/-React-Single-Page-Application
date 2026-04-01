@@ -25,10 +25,10 @@ function App() {
   
     return (
         <>
-            <Navbar></Navbar>
+            <Navbar Carts={Carts} setActiveTab={setActiveTab}></Navbar>
             <Banner></Banner>
             <UserRating></UserRating>
-            <Body Carts={Carts} GetAllCard={GetAllCard} setActiveTab={setActiveTab} ActiveTab={ActiveTab} Carts={Carts} setCarts={setCarts}></Body>
+            <Body Carts={Carts} GetAllCard={GetAllCard} setActiveTab={setActiveTab} ActiveTab={ActiveTab}  setCarts={setCarts}></Body>
             <Start></Start>
             <Price></Price>
             <Transflow></Transflow>

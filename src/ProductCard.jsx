@@ -1,10 +1,19 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const ProductCard = ({ Data,setCarts,Carts }) => {
     const [AddCart, setAddCart] = useState(false);
     const HandleCart = () => {
         setAddCart(true)
+
+        const isfiond = Carts.find(item=> item.id === Data.id )
+            if (isfiond) {
+                toast.error('Item already in cart!')
+                return ;
+            }
+       
          setCarts( [...Carts,Data])
+         toast.success("Item added to cart")
     }
     const badgeColors = {
         primary: "badge-primary",

@@ -30,8 +30,12 @@ const Banner = () => {
           </div>
         </div>
         <div className="flex-1 w-full max-w-md md:max-w-xl mt-10 md:mt-0 flex justify-center">
-          <div className="relative aspect-square w-full max-w-[500px] rounded-lg overflow-hidden border border-[#d1d5db]">
-            <img  src="../src/assets/banner.png"  className="w-full h-full object-cover" />
+          <div className="relative">
+            <img
+              className="relative h-130 w-auto object-contain drop-shadow-2xl rounded-3xl animate-pulse"
+              src="../src/assets/banner.png"
+              alt="AI Models Banner"
+            />
           </div>
         </div>
       </div>
