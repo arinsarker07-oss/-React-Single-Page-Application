@@ -27,12 +27,13 @@ const ProductCard = ({ Data,setCarts,Carts }) => {
     };
 
     return (
-        <div className=" mt-7 container mx-auto rounded-3xl border border-gray-100 p-8 shadow-sm bg-white font-sans relative">
+        <div className="hover-3d">
+        <div className="  mt-7 container mx-auto rounded-3xl border border-gray-100 p-8 shadow-sm bg-white font-sans relative">
             <div className="absolute top-6 right-6">
                 <div className={`badge badge-soft badge-${Data.tagType}`}>{Data.tag}</div>
             </div>
             <div className="w-20 h-15 bg-gray-50 rounded-full flex items-center justify-center mb-4 border border-gray-50">
-                <span className="text-3xl">{Data.icon || ''}</span>
+                <span className="text-3xl">{Data.icon }</span>
             </div>
             <h3 className="text-2xl font-extrabold text-[#101727] mb-3">{Data.name}</h3>
             <p className="text-[#627382] leading-relaxed mb-6">
@@ -63,6 +64,7 @@ const ProductCard = ({ Data,setCarts,Carts }) => {
                 {AddCart ? "Add To Cart" : "Buy Now"}
 
             </button>
+        </div>
         </div>
     );
 };

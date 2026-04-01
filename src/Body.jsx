@@ -10,7 +10,7 @@ const Body = ({ GetAllCard,setActiveTab,ActiveTab,setCarts,Carts}) => {
             <BodyHeader setActiveTab={setActiveTab} ActiveTab={ActiveTab} Carts={Carts}></BodyHeader>
                      
 
-           {ActiveTab==="product"? <div className='grid md:grid-cols-3 grid-cols-1  gap-7 container mx-auto '>
+           {ActiveTab==="product"? <div className=' grid md:grid-cols-3 grid-cols-1  gap-7 container mx-auto '>
                 {
                     GetData.map(Data =>
                     <ProductCard  Carts={Carts} setCarts={setCarts} key={Data.id} Data={Data}></ProductCard>
