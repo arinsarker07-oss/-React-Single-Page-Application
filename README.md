@@ -8,10 +8,15 @@ Live Demo: View Project Here
 
 🛠️ Technology Stack
 This application is built using a modern development workflow to ensure scalability and speed:
+
 React.js: Core library for building dynamic user interfaces.
+
 React Router: For seamless navigation and URL management.
+
 Tailwind CSS: For a responsive, mobile-first, and professional design.
+
 Netlify: For continuous deployment and global edge hosting.
+
 Vite/CRA: Optimized build tooling for peak performance.
 
 ✨ Key Features
