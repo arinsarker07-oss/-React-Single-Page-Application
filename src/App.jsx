@@ -1,6 +1,7 @@
 
 import './App.css'
 import Banner from './Banner'
+import Footer from './Footer'
 import Navbar from './Navbar'
 import Start from './Start'
 import Transflow from './Transflow'
@@ -15,6 +16,7 @@ function App() {
      <UserRating></UserRating>
      <Start></Start>
      <Transflow></Transflow>
+     <Footer></Footer>
     </>
   )
 }
