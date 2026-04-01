@@ -8,11 +8,11 @@ const Footer = () => {
 
        <footer className="w-full text-neutral-content p-6 md:p-10 bg-[#101727]">
     <div className='container mx-auto'>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-10 md:gap-6'>
+        <div className='grid grid-cols-2 md:grid-cols-5 gap-10 md:gap-6'>
             
             <div className='space-y-3'>
-                <p className='font-extrabold text-4xl text-white py-2'>DigiTools</p>
-                <p className='max-w-xs opacity-90'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
+                <p className='font-extrabold md:text-4xl text-white py-2'>DigiTools</p>
+                <p className='max-w-xs text-sm opacity-90'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
             </div>
             
             <nav className='flex flex-col md:space-y-3'>
