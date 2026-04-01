@@ -8,9 +8,9 @@ const Start = () => {
             <p className='font-extrabold text-5xl text-[#101727]'>Get Started in 3 Steps</p>
             <p className='  text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
 
-            <div className='grid md:grid-cols-3 max-w-330 mx-auto'>
+            <div className='grid md:grid-cols-3 container mx-auto place-items-center'>
             <div className="card hover-3d flex items-center justify-center m-10 bg-slate-50">
-      <div className="relative w-[400px] bg-white border border-gray-100 rounded-[40px] p-12 flex flex-col items-center shadow-sm">
+      <div className="md:relative w-[330px] md:w-[400px] bg-white border border-gray-100 rounded-[40px] p-12 flex flex-col items-center shadow-sm">
         <div className="absolute top-8 right-8 w-10 h-10 bg-[#7C3AED] rounded-full flex items-center justify-center shadow-lg shadow-purple-200">
           <span className="text-white text-xs font-bold">01</span>
         </div>
@@ -27,7 +27,7 @@ const Start = () => {
       </div>
             </div>
             <div className="card hover-3d flex items-center justify-center m-10 bg-slate-50">
-      <div className="relative w-[400px] bg-white border border-gray-100 rounded-[40px] p-12 flex flex-col items-center shadow-sm">
+      <div className="relative w-[330px] md:w-[400px] bg-white border border-gray-100 rounded-[40px] p-12 flex flex-col items-center shadow-sm">
         <div className="absolute top-8 right-8 w-10 h-10 bg-[#7C3AED] rounded-full flex items-center justify-center shadow-lg shadow-purple-200">
           <span className="text-white text-xs font-bold">02</span>
         </div>
@@ -44,7 +44,7 @@ const Start = () => {
       </div>
             </div>
             <div className="card hover-3d flex items-center justify-center m-10 bg-slate-50">
-      <div className="relative w-[400px] bg-white border border-gray-100 rounded-[40px] p-12 flex flex-col items-center shadow-sm">
+      <div className="relative w-[330px] md:w-[400px] bg-white border border-gray-100 rounded-[40px] p-12 flex flex-col items-center shadow-sm">
         <div className="absolute top-8 right-8 w-10 h-10 bg-[#7C3AED] rounded-full flex items-center justify-center shadow-lg shadow-purple-200">
           <span className="text-white text-xs font-bold">03</span>
         </div>
