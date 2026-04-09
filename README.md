@@ -4,7 +4,7 @@ A seamless, high-performance web experience built with modern frontend architect
 📖 Description
 This project is a sophisticated Single Page Application designed to provide a fluid, app-like user experience. By leveraging client-side routing, the application eliminates full-page reloads, allowing for lightning-fast transitions between sections. Whether you are browsing content or interacting with UI elements, the experience is optimized for speed, accessibility, and modern aesthetics.
 
-Live Demo: View Project Here
+Live Demo: https://react-single-page-application-by-arin.netlify.app/
 
 🛠️ Technology Stack
 This application is built using a modern development workflow to ensure scalability and speed:
