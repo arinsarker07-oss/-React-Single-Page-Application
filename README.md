@@ -8,9 +8,8 @@ A sleek and professional Single Page Application built using React. This project
 Check out the live site here: [Live Preview](https://react-single-page-application-by-arin.netlify.app/)
 
 ---
-
-## 📸 Preview
-
+📸 Preview
+## <img width="1618" height="640" alt="httpsreact-single-page-application-by-arin netlify app" src="https://github.com/user-attachments/assets/dc3eeb0a-2370-4262-a4ae-f148633c60c6" />
 
 ---
 
